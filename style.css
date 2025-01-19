@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  background-size: cover;
+}
+
+#local{
+  width: 1280px;
+  padding:40px;
+  color: #FFFFFF;
+  margin:48px auto 28px;
+}
+
+h1{
+  line-height: auto;
+  font-size: 16px;
+  color: #E1624F;
+}
+
+p{
+  
+}
+
+
+
+
