@@ -3,28 +3,162 @@
   padding: 0;
 }
 
+:root{
+  font-family: "Open Sans", sans-serif;
+
+}
 body{
-  color: white;
   background-size: cover;
+  background-color: black;
 }
 
 #local{
   width: 1280px;
   padding:40px;
-  color: #FFFFFF;
   margin:48px auto 28px;
+  background-color: white;
 }
 
-h1{
+main{
+  width: 1120px;
+  padding:40px;
+  margin:48px auto 28px;
+ 
+}
+
+#main p {
+  line-height: auto;
+  font-size: 20px;
+  color:#333333;
+  text-align:center;
+}
+
+#titlepage{
+  
+  width: 1120px;
+  height: 79px;
+ 
+ 
+}
+
+#titlepage h1{
   line-height: auto;
   font-size: 16px;
-  color: #E1624F;
+  color: #E1624F; 
 }
 
-p{
+#titlepage h2{
+  line-height: auto;
+  font-size: 40px;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+#description{
+  
+  width: 1120px;
+  height: 729px;
+  margin: 40px auto 40px;
   
 }
 
+#description img{
+  width: 1120px;
+  height: 660px;
+  border-radius:28px;
+  
+}
+
+#description p{
+  line-height: auto;
+  font-size: 16px;
+  color:#333333;
+  font-style: italic;
+  text-align: center;
+
+}
+#contentlist{
+ 
+  width: 1120px;
+  height: 2020px;
+  margin: 64px auto 64px;
+  text-align: justify;
+ 
+
+}
+
+#contentlist h1{
+  line-height: auto;
+  font-size: 16px;
+  color: #E1624F; 
+}
+
+#contentlist h2{
+  line-height: auto;
+  font-size: 40px;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+#contentlist ol {
+  line-height: auto;
+  font-size: 30px;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+#contentlist ul {
+  line-height: auto;
+  font-size: 16px;
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #0C51A7;
+
+}
+#contentlist p {
+  line-height: auto;
+  font-size: 16px;
+  color: #1B1B1B;
+
+}
+
+.historia {
+  color: #0c51a7;
+  font-weight: bold;
+}
+
+.casais {
+  color: #6c11c8;
+  font-weight: bold;
+}
+
+.familia {
+  color:#cc174d;
+  font-weight: bold;}
+
+.orcamento {
+    color: #b34a0e
+    font-weight: bold;}
+
+footer{
+  color:#333333 ;
+  text-align:center;
+  
+}
+
+footer img{
+  vertical-align: middle;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
 
 
 
